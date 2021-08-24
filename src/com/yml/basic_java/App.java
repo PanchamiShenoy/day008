@@ -7,7 +7,7 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Harmonic f =new Harmonic();
+		EvenOdd f =new EvenOdd();
 		f.compute();
 	}
 
