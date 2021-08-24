@@ -1,13 +1,13 @@
 package com.yml.basic_java;
 
-import com.yml.core_java.Factor;
-import com.yml.core_java.LeapYear;
+import com.yml.core_java.*;
+
 
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Factor f =new Factor();
+		
+		Harmonic f =new Harmonic();
 		f.compute();
 	}
 
