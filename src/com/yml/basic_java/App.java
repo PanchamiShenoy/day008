@@ -7,7 +7,7 @@ public class App {
 
 	public static void main(String[] args) {
 	
-		Largest f =new Largest();
-		f.compute();
+		VowelCons f =new VowelCons();
+		f.check();
 	}
 }
