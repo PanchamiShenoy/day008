@@ -7,8 +7,7 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		QuotientRemainder f =new QuotientRemainder();
+		SwapNumber f =new SwapNumber();
 		f.compute();
 	}
-
 }
