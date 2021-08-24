@@ -7,7 +7,7 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		EvenOdd f =new EvenOdd();
+		QuotientRemainder f =new QuotientRemainder();
 		f.compute();
 	}
 
