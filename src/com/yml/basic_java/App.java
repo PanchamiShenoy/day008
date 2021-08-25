@@ -7,7 +7,7 @@ import com.yml.logic_program.*;
 public class App {
 
 	public static void main(String[] args) {
-		Reverse p=new Reverse();
-		p.compute();
+		PerfectNumber p=new PerfectNumber();
+		p.check();
 	}
 }
