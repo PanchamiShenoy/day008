@@ -9,7 +9,9 @@ import com.yml.logic_program.*;
 public class App {
 
 	public static void main(String[] args) {
-		Coupon c = new Coupon();
-		c.run();
+
+		Coupon c =new Coupon();
+		c.start();
+
 	}
 }
