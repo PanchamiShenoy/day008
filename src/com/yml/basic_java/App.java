@@ -10,6 +10,6 @@ public class App {
 		Distance f =new Distance();
 		int x=Integer.parseInt(args[0]); 
 		int y=Integer.parseInt(args[1]);
-		f.check(x,y);
+		f.compute(x,y);
 	}
 }
