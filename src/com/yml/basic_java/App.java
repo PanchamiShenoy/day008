@@ -7,7 +7,7 @@ import com.yml.logic_program.*;
 public class App {
 
 	public static void main(String[] args) {
-		PerfectNumber p=new PerfectNumber();
-		p.check();
+		Fibonacci p=new Fibonacci();
+		p.run();
 	}
 }
