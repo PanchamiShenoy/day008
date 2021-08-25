@@ -7,7 +7,7 @@ import com.yml.logic_program.*;
 public class App {
 
 	public static void main(String[] args) {
-		Prime p=new Prime();
-		p.check();
+		Reverse p=new Reverse();
+		p.compute();
 	}
 }
