@@ -66,4 +66,16 @@ public final class Util {
 		System.out.println("Binary = " + bits);
 	}
 
+	public static void sqrt() {
+		
+		Scanner sc = new Scanner(System.in);
+		int c = sc.nextInt();
+		double epsilon = 1e-15; 
+		double t = c; 
+
+		while (Math.abs(t - c / t) > epsilon * t) {
+			t = (c / t + t) / 2.0;
+		}
+		System.out.println(t);
+	}
 }
