@@ -41,4 +41,11 @@ public final class Util {
 		}
 	}
 
+	public static void monthyPayment(int principal, int rate, int year) {
+		double n = 12 * year;
+		double r = rate / (12 * 100);
+		double payment = (principal * r) / (1 - Math.pow(1 + r, -n));
+		System.out.println("Monthly Payment = " + payment);
+	}
+
 }
