@@ -48,11 +48,8 @@ public final class Util {
 		System.out.println("Monthly Payment = " + payment);
 	}
 
-	public static void toBinary() {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the Number");
-		int num = scanner.nextInt();
-
+	public static String toBinary(int num) {
+		
 		int temp = num;
 		String remString;
 		String bits = "";
@@ -63,9 +60,18 @@ public final class Util {
 			bits = remString + bits;
 			temp = temp / 2;
 		}
-		System.out.println("Binary = " + bits);
+		int length = bits.length();
+		if(length!= 8) {
+			for(int i=0;i<8-length;i++) {
+				bits = "0" + bits;
+			}
+			
+		}
+		return bits;
 	}
 
+	
+	
 	public static void sqrt() {
 		
 		Scanner sc = new Scanner(System.in);
