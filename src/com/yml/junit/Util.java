@@ -48,4 +48,22 @@ public final class Util {
 		System.out.println("Monthly Payment = " + payment);
 	}
 
+	public static void toBinary() {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the Number");
+		int num = scanner.nextInt();
+
+		int temp = num;
+		String remString;
+		String bits = "";
+
+		while (temp != 0) {
+			int rem = temp % 2;
+			remString = Integer.toString(rem);
+			bits = remString + bits;
+			temp = temp / 2;
+		}
+		System.out.println("Binary = " + bits);
+	}
+
 }
